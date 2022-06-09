@@ -1,0 +1,57 @@
+Computational Algebra: Where groups/rings/fields and programming meet.
+                     GAP workshop (Beta version) 
+                      
+Contents:  
+
+-> Why mixing Abstract Algebra with programming is a good ideia? (GAP introduction)
+  1- First setups: Jupyter, python, GAP etc basic installation
+  2- How to use the command line, basic commands:  ls, dir, pip3 install, apt-get, gap terminal. 
+  3- Explaining Jupyter notebook and Markdown Language / Latex. 
+  4- The GAP programming language:
+     - Statements: if, while, for, etc
+     - Comparisons, Data Types (Lists, records) , Functions  
+     - Data visualization: Graphs and "Graphs"
+     - Read/Writing Data from File  
+  5- Abstract Algebra in GAP:
+     - Groups: 
+       - Creating Groups: Group(gen,...), AllSmallGroups();
+       - Elements(G), Inverse(elm), Order(elm), Order(G), DirecProduct(G);
+       - StructureDescription();
+       - Famous Groups: SymmetricGroup(n), CyclicGroup(n);
+       - Subgroups: 
+               - Index(G,H), IsSubgroup(G,H), IsNormal(G,H), ConjugateSubgroup(G,g);
+               - AllSubgroups(G), MaximalSubgroups(G), NormalSubgroups(G); 
+       - Group Properties: IsCyclic(G), IsElementaryAbelian(G), IsNilpotentGroup(G), IsSolvableGroup(G), IsPGroup(G).
+       - CommutatorSubgroup(G), DerivedSubgroup(G);
+       - ConjugacyClass(G,g), ConjugacyClasses(G);
+        
+     
+-> Github: Entering the open source programming rabbit hole.
+  - What is GitHub? 
+  - Colaborative Programming: Why the union makes strength. 
+  - Code versioning (or why saving your work is important).
+  - Basic git commands: Git status, git commit, git push.
+    
+-> Using GAP Packages: 
+      - Grape: 
+         - famous graphs: Complete Graph, Cayley Graph, Johnson Graph.
+         - Constructing graphs based on adjacency matrix. 
+         - VertexDegree, IsSimpleGraph, Distance, Diameter, Girth, Adjacency.
+         - IsIsomorphicGraph, IsConnectedGraph, IsBipartite, IsCompleteGraph.
+         - VertexColouring, ChromaticNumber, CompleteSubgraphs, MaximumClique, CliqueNumber.
+         
+-> How to program your own package (and why, and who cares, really?) 
+  1- What's the reason GAP packages exist?
+  2- What can a mathematics researcher gain from developing a GAP Package?  
+  3- The oficial GAP packages list. 
+    
+
+
+
+ 
+ 
+
+
+ 
+
+

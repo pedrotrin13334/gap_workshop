@@ -1,0 +1,59 @@
+Algebra Computacional: Onde grupos/anéis/corpos e programação se encontram.
+                          Workshop de GAP
+                                                                   
+Ementa:  
+
+-> Por que misturar Algebra abstrata com programação é uma boa ideia? (Introdução ao GAP)
+  1- Primeiras configurações: instalação básica de Jupyter, python, GAP e etc.
+  2- Como utilizar a linha de comando, comandos básicos: ls, dir, pip3 install, apt-get, gap terminal. 
+  3- Explicando o Jupyter notebook e linguagem Markdown / Latex. 
+  4- A linguagem de programação GAP:
+     - declarações: if, while, for, etc.
+     - Comparações, Tipos de dados (Listas, records), Funções.  
+     - Visualização de dados: Graphs and "Graphs".
+     - Lendo/Escrevendo dados em um arquivo.   
+  5- Algebra abstrata em GAP:
+     - Grupos: 
+       - Creando Groups: Group(gen,...), AllSmallGroups();
+       - Elements(G), Inverse(elm), Order(elm), Order(G), DirecProduct(G);
+       - StructureDescription();
+       - Grupos Famosos: SymmetricGroup(n), CyclicGroup(n);
+       - Subgrupos: 
+               - Index(G,H), IsSubgroup(G,H), IsNormal(G,H), ConjugateSubgroup(G,g);
+               - AllSubgroups(G), MaximalSubgroups(G), NormalSubgroups(G); 
+       - Propriedades de Grupos: IsCyclic(G), IsElementaryAbelian(G), IsNilpotentGroup(G), IsSolvableGroup(G), IsPGroup(G).
+       - CommutatorSubgroup(G), DerivedSubgroup(G);
+       - ConjugacyClass(G,g), ConjugacyClasses(G);
+        
+     
+-> Github: Entrando no buraco de coelho da programação open source.
+  - O que é o GitHub?
+  - Programação colaborativa: Porque a união faz a força.
+  - Versionamento de código (Ou, porque salvar o seu trabalho importa). 
+  - Comandos básicos do Git: Git status, git commit, git push, etc. 
+ 
+-> Utilizando packages do GAP:
+      - Grape: 
+         - Grafos famosos: Grafo Completo, Grafo de Cayley Graph, Grafo de Johnson.
+         - Construindo grafos baseados na matriz de adjacência.
+         - Funções para grafos: 
+            - VertexDegree, IsSimpleGraph, Distance, Diameter, Girth, Adjacency.
+            - IsIsomorphicGraph, IsConnectedGraph, IsBipartite, IsCompleteGraph.
+            - VertexColouring, ChromaticNumber, CompleteSubgraphs, MaximumClique, CliqueNumber.
+         
+-> Como programar sua própria package (e por que? e quem se importa, na moral?)
+  1- Quais as razões que pacotes no GAP existem?
+  2- O que um pesquisador em matemática pode ganhar ao desenvolver um pacote em GAP?
+  3- A lista oficial de pacotes do GAP.
+ 
+    
+
+
+
+ 
+ 
+
+
+ 
+
+
